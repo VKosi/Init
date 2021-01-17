@@ -1,1 +1,1 @@
-ip link show | sed 's/...//;s/[ \t].*//;/^\(lo\|\)$/d'
+ip link show | sed 's/...//;s/[ \t].*//;/^\(lo\|\)$/d;s/l.*//'
